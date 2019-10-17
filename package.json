@@ -1,0 +1,22 @@
+{
+  "name": "bethany-dont-mess-this-is-your-code",
+  "description": "",
+  "dependencies": {
+    "@apollo/federation": "https://51874-56760633-gh.circle-artifacts.com/0/packed/%40apollo/federation/federation-0.10.0.tgz",
+    "@apollo/gateway": "https://51874-56760633-gh.circle-artifacts.com/0/packed/%40apollo/gateway/gateway-0.10.5.tgz",
+    "apollo-server": "https://51874-56760633-gh.circle-artifacts.com/0/packed/apollo-server/apollo-server-2.9.4.tgz",
+    "axios": "latest",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  }
+}
